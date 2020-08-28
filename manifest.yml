@@ -1,0 +1,8 @@
+---
+applications:
+  - name: mtapp
+    instances: 1
+    memory: 896M
+    buildpacks:
+      - java_buildpack
+    path: target/mtapp.jar
