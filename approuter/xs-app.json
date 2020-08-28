@@ -1,5 +1,11 @@
 {
   "welcomeFile": "index.html",
   "authenticationMethod": "route",
-  "routes": []
+  "routes": [
+    {
+      "source": "^/api",
+      "target": "/api",
+      "destination": "token-destination"
+    }
+  ]
 }

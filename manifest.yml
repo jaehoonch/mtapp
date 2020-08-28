@@ -18,3 +18,10 @@ applications:
     memory: 128M
     services:
       - xsuaa-auth
+    env:
+      destinations: >
+        [
+          {"name":"token-destination",
+           "url":"https://mtapp.cfapps.jp10.hana.ondemand.com",
+           "forwardAuthToken": true}
+        ]
