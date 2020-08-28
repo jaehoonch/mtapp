@@ -37,7 +37,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.sap.cloud.security.xsuaa</groupId>
-			<artifactId>spring-xsuaa</artifactId>
+			<artifactId>xsuaa-spring-boot-starter</artifactId>
 			<version>2.7.4</version>
 		</dependency>
 	</dependencies>

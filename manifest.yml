@@ -1,8 +1,20 @@
 ---
 applications:
+  # Java application
   - name: mtapp
     instances: 1
     memory: 896M
     buildpacks:
       - java_buildpack
     path: target/mtapp.jar
+    services:
+      - xsuaa-auth
+
+  # Application Router
+  - name: approuter-mtapp
+    path: approuter
+    buildpacks:
+      - nodejs_buildpack
+    memory: 128M
+    services:
+      - xsuaa-auth

@@ -1,0 +1,7 @@
+{
+  "xsappname": "mtapp",
+  "tenant-mode": "dedicated",
+  "scopes": [],
+  "role-templates": [],
+  "role-collections": []
+}
